@@ -1,0 +1,43 @@
+<!DOCTYPE html>
+<html lang="en">
+
+<head>
+  <meta charset="UTF-8">
+  <title>Advisor Sign Up</title>
+  <link rel="stylesheet" href="../css/advisor-signup.css">
+</head>
+
+<body>
+  <div class="container">
+    <div class="left-panel">
+      <img src="../img/15635306_5643423.jpg" alt="advisor Image">
+    </div>
+    <div class="right-panel">
+      <h2>Advisor Sign Up</h2>
+      <form id="signup-form">
+        <input type="text" name="firstname" placeholder="First Name" required id="firstname">
+        <input type="text" name="lastname" placeholder="Last Name" required id="lastname">
+        <select name="subject" required class="subject-select" id="subject">
+          <option value="" disabled selected>Select Subject</option>
+          <option value="math">Java OOP & Spring Boot Back-end Engineering</option>
+          <option value="science">Python for Data Science</option>
+          <option value="history">Web Development with React & Node.js</option>
+          <option value="literature">Machine Learning Basics</option>
+          <option value="math">Database Design with MySQL</option>
+          <option value="science">Cybersecurity Fundamentals</option>
+          <option value="history">UI/UX Design Essentials</option>
+          <option value="literature">Cloud Computing with AWS</option>
+        </select>
+        <input type="email" name="email" placeholder="Email" required id="email">
+        <input type="password" name="password" placeholder="Password" required id="password">
+        <button type="submit">Sign Up</button>
+      </form>
+      <p>All ready have an account? <a href="advisor-login.html">Log In</a></p>
+      <p><a href="student-signup.html">Register as a student</a></p>
+    </div>
+  </div>
+
+  <script src="../js/advisor-signup.js"></script>
+</body>
+
+</html>

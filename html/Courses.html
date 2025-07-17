@@ -1,0 +1,82 @@
+<!DOCTYPE html>
+<html lang="en">
+
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>courses</title>
+    <link rel="stylesheet" href="../css/Courses.css">
+</head>
+
+<body>
+    <div class="header-container">
+    </div>
+
+    <div class="mobile-menu">
+    </div>
+
+    <div class="hero-section">
+        <div class="hero-content">
+            <h1>Welcome to <br>Academic Advisory <br> Appointment</h1>
+            <p>Explore our wide range of courses and book sessions <br>with our expert advisors and enhance your
+                learning experience <br> with personalized guidance.</p>
+            <button class="explore-btn">Explore Courses</button>
+        </div>
+        <div class="hero-image">
+            <img src="../img/online-tutorials-concept.png" alt="hero image" class="hero-img">
+        </div>
+    </div>
+
+    <div class="session-header">
+        <h1 class="session-title">Available Sessions</h1>
+        <p class="session-description">Book a session with our expert advisors to enhance your learning experience.</p>
+    </div>
+
+    <div class="container">
+    </div>
+
+    <div class="modal-overlay" id="bookSessionModal">
+        <div class="modal-content">
+            <div class="modal-header">
+                <img src="../img/15902.jpg" alt="" class="modal-profile-pic">
+                <div class="modal-advisor-info">
+                    <h2 id="modalAdvisorName">Bruce Wayne</h2>
+                    <p id="modalSubject">Java OOP & Spring Boot Back-end Engineering</p>
+                </div>
+            </div>
+            <hr class="modal-divider">
+            <form id="bookForm">
+                <input type="hidden" id="advisorId" name="advisorId">
+                <input type="date" id="sessionDate" placeholder="Select Date" required>
+                <input type="time" id="sessionTime" placeholder="Select Time" required>
+
+                <div class="modal-buttons">
+                    <button type="submit" class="confirm">Book Session</button>
+                    <button type="button" id="closeModal" class="cancel">Cancel</button>
+                </div>
+            </form>
+        </div>
+    </div>
+
+    <div class="footer-container">
+        <div class="footer-content">
+            <div class="footer-logo">
+                <img src="../img/graduation_5105431.png" alt="">
+                <h2>Academic Advisory</h2>
+            </div>
+            <p>Providing expert guidance for your academic journey</p>
+            <div class="footer-icons">
+                <a href="#"><img src="../img/instagram (1).png" alt=""></a>
+                <a href="#"><img src="../img/linkedin.png" alt=""></a>
+                <a href="#"><img src="../img/tiktok.png" alt=""></a>
+            </div>
+        </div>
+
+        <p class="copyright-text">&copy; 2025 Academic Advisory Appointment. All rights reserved.</p>
+    </div>
+
+    <script src="../js/studentHeader.js"></script>
+    <script src="../js/Courses.js"></script>
+</body>
+
+</html>
